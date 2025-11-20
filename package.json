@@ -1,0 +1,47 @@
+{
+  "name": "expandable-tabs",
+  "version": "1.0.0",
+  "description": "Animated expandable tabs component with smooth morphing transitions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "tabs",
+    "animated",
+    "framer-motion",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/expandable-tabs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/expandable-tabs/issues"
+  },
+  "homepage": "https://github.com/yourusername/expandable-tabs#readme",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0"
+  }
+}
